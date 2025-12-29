@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct Workout_TrackerApp: App {
+
     @StateObject private var store = Store()
 
     var body: some Scene {
@@ -21,6 +22,7 @@ struct Workout_TrackerApp: App {
 }
 
 struct RootView: View {
+
     @EnvironmentObject private var store: Store
 
     var body: some View {
@@ -43,4 +45,4 @@ struct MainTabsView: View {
 #Preview {
     RootView()
         .environmentObject(Store())
-}  Ï
+}
