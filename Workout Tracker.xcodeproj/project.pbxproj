@@ -35,16 +35,6 @@
 			path = "Workout Tracker";
 			sourceTree = "<group>";
 		};
-		D05CBE962F021B0F000092DC /* Workout TrackerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Workout TrackerTests";
-			sourceTree = "<group>";
-		};
-		D05CBEA02F021B0F000092DC /* Workout TrackerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Workout TrackerUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				D05CBE882F021B0E000092DC /* Workout Tracker */,
-				D05CBE962F021B0F000092DC /* Workout TrackerTests */,
-				D05CBEA02F021B0F000092DC /* Workout TrackerUITests */,
 				D05CBE872F021B0E000092DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				D05CBE952F021B0F000092DC /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D05CBE962F021B0F000092DC /* Workout TrackerTests */,
-			);
 			name = "Workout TrackerTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				D05CBE9F2F021B0F000092DC /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D05CBEA02F021B0F000092DC /* Workout TrackerUITests */,
 			);
 			name = "Workout TrackerUITests";
 			packageProductDependencies = (
